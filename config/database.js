@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
       database: env('DATABASE_NAME', 'arcdisco-db'),
       user: env('DATABASE_USERNAME', 'arcdisco-admin'),
       password: env('DATABASE_PASSWORD', 'Sparkymlc3188!'),
-      ssl: env.bool('DATABASE_SSL', true),
+      ssl: env.bool('DATABASE_SSL', false),
     },
   },
 });
