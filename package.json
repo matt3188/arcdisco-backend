@@ -8,7 +8,7 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "test": ""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {},
   "dependencies": {
