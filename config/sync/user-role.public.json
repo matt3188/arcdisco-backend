@@ -4,6 +4,12 @@
   "type": "public",
   "permissions": [
     {
+      "action": "api::testimonial.testimonial.find"
+    },
+    {
+      "action": "api::testimonial.testimonial.findOne"
+    },
+    {
       "action": "plugin::users-permissions.auth.callback"
     },
     {
