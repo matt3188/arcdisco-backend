@@ -5,6 +5,75 @@
   "permissions": [
     {
       "action": "plugin::content-manager.explorer.create",
+      "subject": "api::home-page.home-page",
+      "properties": {
+        "fields": [
+          "heroImage",
+          "mainHeading",
+          "description",
+          "SEO.metaTitle",
+          "SEO.metaDescription",
+          "SEO.metaSocial.socialNetwork",
+          "SEO.metaSocial.title",
+          "SEO.metaSocial.description",
+          "SEO.metaSocial.image",
+          "SEO.keywords"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::home-page.home-page",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::home-page.home-page",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::home-page.home-page",
+      "properties": {
+        "fields": [
+          "heroImage",
+          "mainHeading",
+          "description",
+          "SEO.metaTitle",
+          "SEO.metaDescription",
+          "SEO.metaSocial.socialNetwork",
+          "SEO.metaSocial.title",
+          "SEO.metaSocial.description",
+          "SEO.metaSocial.image",
+          "SEO.keywords"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::home-page.home-page",
+      "properties": {
+        "fields": [
+          "heroImage",
+          "mainHeading",
+          "description",
+          "SEO.metaTitle",
+          "SEO.metaDescription",
+          "SEO.metaSocial.socialNetwork",
+          "SEO.metaSocial.title",
+          "SEO.metaSocial.description",
+          "SEO.metaSocial.image",
+          "SEO.keywords"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
       "subject": "api::testimonial.testimonial",
       "properties": {
         "fields": [
