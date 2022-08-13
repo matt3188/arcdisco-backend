@@ -77,9 +77,11 @@
       "subject": "api::testimonial.testimonial",
       "properties": {
         "fields": [
-          "Author",
-          "Testimonial",
-          "Date"
+          "author",
+          "testimonial",
+          "date",
+          "poptop_review",
+          "event"
         ]
       },
       "conditions": []
@@ -101,9 +103,11 @@
       "subject": "api::testimonial.testimonial",
       "properties": {
         "fields": [
-          "Author",
-          "Testimonial",
-          "Date"
+          "author",
+          "testimonial",
+          "date",
+          "poptop_review",
+          "event"
         ]
       },
       "conditions": []
@@ -113,9 +117,11 @@
       "subject": "api::testimonial.testimonial",
       "properties": {
         "fields": [
-          "Author",
-          "Testimonial",
-          "Date"
+          "author",
+          "testimonial",
+          "date",
+          "poptop_review",
+          "event"
         ]
       },
       "conditions": []

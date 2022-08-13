@@ -751,24 +751,33 @@
       "info": {
         "singularName": "testimonial",
         "pluralName": "testimonials",
-        "displayName": "Testimonials"
+        "displayName": "Testimonials",
+        "description": ""
       },
       "options": {
         "draftAndPublish": true
       },
       "pluginOptions": {},
       "attributes": {
-        "Author": {
+        "author": {
           "type": "string",
           "required": true
         },
-        "Testimonial": {
+        "testimonial": {
           "type": "text",
           "required": true
         },
-        "Date": {
+        "date": {
           "type": "date",
-          "required": true
+          "required": true,
+          "default": "2022-08-13"
+        },
+        "poptop_review": {
+          "type": "boolean",
+          "default": false
+        },
+        "event": {
+          "type": "string"
         },
         "createdAt": {
           "type": "datetime"
@@ -808,24 +817,33 @@
         "info": {
           "singularName": "testimonial",
           "pluralName": "testimonials",
-          "displayName": "Testimonials"
+          "displayName": "Testimonials",
+          "description": ""
         },
         "options": {
           "draftAndPublish": true
         },
         "pluginOptions": {},
         "attributes": {
-          "Author": {
+          "author": {
             "type": "string",
             "required": true
           },
-          "Testimonial": {
+          "testimonial": {
             "type": "text",
             "required": true
           },
-          "Date": {
+          "date": {
             "type": "date",
-            "required": true
+            "required": true,
+            "default": "2022-08-13"
+          },
+          "poptop_review": {
+            "type": "boolean",
+            "default": false
+          },
+          "event": {
+            "type": "string"
           }
         },
         "kind": "collectionType"

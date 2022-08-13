@@ -7,8 +7,8 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "Author",
-      "defaultSortBy": "Author",
+      "mainField": "author",
+      "defaultSortBy": "author",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -20,7 +20,7 @@
           "sortable": true
         }
       },
-      "Author": {
+      "author": {
         "edit": {
           "label": "Author",
           "description": "",
@@ -29,12 +29,12 @@
           "editable": true
         },
         "list": {
-          "label": "Author",
+          "label": "author",
           "searchable": true,
           "sortable": true
         }
       },
-      "Testimonial": {
+      "testimonial": {
         "edit": {
           "label": "Testimonial",
           "description": "",
@@ -43,12 +43,12 @@
           "editable": true
         },
         "list": {
-          "label": "Testimonial",
+          "label": "testimonial",
           "searchable": true,
           "sortable": true
         }
       },
-      "Date": {
+      "date": {
         "edit": {
           "label": "Date",
           "description": "",
@@ -57,7 +57,35 @@
           "editable": true
         },
         "list": {
-          "label": "Date",
+          "label": "date",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "poptop_review": {
+        "edit": {
+          "label": "Poptop review",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "poptop_review",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "event": {
+        "edit": {
+          "label": "Event",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "event",
           "searchable": true,
           "sortable": true
         }
@@ -95,29 +123,37 @@
       "edit": [
         [
           {
-            "name": "Date",
+            "name": "poptop_review",
             "size": 4
           }
         ],
         [
           {
-            "name": "Author",
+            "name": "event",
+            "size": 6
+          },
+          {
+            "name": "author",
             "size": 6
           }
         ],
         [
           {
-            "name": "Testimonial",
-            "size": 12
+            "name": "testimonial",
+            "size": 6
+          },
+          {
+            "name": "date",
+            "size": 4
           }
         ]
       ],
       "editRelations": [],
       "list": [
         "id",
-        "Author",
-        "Testimonial",
-        "Date"
+        "author",
+        "testimonial",
+        "date"
       ]
     }
   },
