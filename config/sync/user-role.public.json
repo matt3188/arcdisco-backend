@@ -4,6 +4,15 @@
   "type": "public",
   "permissions": [
     {
+      "action": "api::about-us.about-us.find"
+    },
+    {
+      "action": "api::footer.footer.find"
+    },
+    {
+      "action": "api::footer.footer.findOne"
+    },
+    {
       "action": "api::home-page.home-page.find"
     },
     {
@@ -11,6 +20,12 @@
     },
     {
       "action": "api::testimonial.testimonial.findOne"
+    },
+    {
+      "action": "plugin::navigation.client.render"
+    },
+    {
+      "action": "plugin::navigation.client.renderChild"
     },
     {
       "action": "plugin::users-permissions.auth.callback"

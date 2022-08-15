@@ -1,0 +1,32 @@
+{
+  "key": "plugin_navigation_config",
+  "value": {
+    "additionalFields": [],
+    "contentTypes": [
+      "api::home-page.home-page",
+      "api::about-us.about-us"
+    ],
+    "contentTypesNameFields": {
+      "default": [
+        "title",
+        "subject",
+        "name"
+      ]
+    },
+    "contentTypesPopulate": {},
+    "allowedLevels": 2,
+    "gql": {
+      "navigationItemRelated": [
+        "HomePage",
+        "AboutUs"
+      ]
+    },
+    "i18nEnabled": false,
+    "slugify": {},
+    "pruneObsoleteI18nNavigations": false,
+    "pathDefaultFields": {}
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
