@@ -22,7 +22,7 @@
       },
       "socialNetwork": {
         "edit": {
-          "label": "Social Network",
+          "label": "socialNetwork",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "title": {
         "edit": {
-          "label": "Title",
+          "label": "title",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -50,7 +50,7 @@
       },
       "description": {
         "edit": {
-          "label": "Description",
+          "label": "description",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -64,7 +64,7 @@
       },
       "image": {
         "edit": {
-          "label": "Image",
+          "label": "image",
           "description": "",
           "placeholder": "",
           "visible": true,

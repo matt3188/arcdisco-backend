@@ -22,7 +22,7 @@
       },
       "metaTitle": {
         "edit": {
-          "label": "Meta Title",
+          "label": "metaTitle",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "metaDescription": {
         "edit": {
-          "label": "Meta Description",
+          "label": "metaDescription",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -48,9 +48,23 @@
           "sortable": true
         }
       },
+      "metaImage": {
+        "edit": {
+          "label": "metaImage",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "metaImage",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "metaSocial": {
         "edit": {
-          "label": "Social meta data",
+          "label": "metaSocial",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -64,7 +78,7 @@
       },
       "keywords": {
         "edit": {
-          "label": "Keywords",
+          "label": "keywords",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -75,37 +89,118 @@
           "searchable": true,
           "sortable": true
         }
+      },
+      "metaRobots": {
+        "edit": {
+          "label": "metaRobots",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "metaRobots",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "structuredData": {
+        "edit": {
+          "label": "structuredData",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "structuredData",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "metaViewport": {
+        "edit": {
+          "label": "metaViewport",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "metaViewport",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "canonicalURL": {
+        "edit": {
+          "label": "canonicalURL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "canonicalURL",
+          "searchable": true,
+          "sortable": true
+        }
       }
     },
     "layouts": {
       "list": [
         "id",
         "metaTitle",
-        "metaDescription"
+        "metaDescription",
+        "metaImage"
       ],
       "edit": [
         [
           {
             "name": "metaTitle",
-            "size": 12
-          }
-        ],
-        [
+            "size": 6
+          },
           {
             "name": "metaDescription",
-            "size": 12
+            "size": 6
           }
         ],
         [
           {
-            "name": "keywords",
-            "size": 12
+            "name": "metaImage",
+            "size": 6
           }
         ],
         [
           {
             "name": "metaSocial",
             "size": 12
+          }
+        ],
+        [
+          {
+            "name": "keywords",
+            "size": 6
+          },
+          {
+            "name": "metaRobots",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "structuredData",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "metaViewport",
+            "size": 6
+          },
+          {
+            "name": "canonicalURL",
+            "size": 6
           }
         ]
       ],

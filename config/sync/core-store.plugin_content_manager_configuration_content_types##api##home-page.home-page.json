@@ -62,7 +62,7 @@
           "sortable": false
         }
       },
-      "SEO": {
+      "seo": {
         "edit": {
           "label": "SEO",
           "description": "",
@@ -71,7 +71,7 @@
           "editable": true
         },
         "list": {
-          "label": "SEO",
+          "label": "seo",
           "searchable": false,
           "sortable": false
         }
@@ -127,7 +127,7 @@
         ],
         [
           {
-            "name": "SEO",
+            "name": "seo",
             "size": 12
           }
         ]
@@ -136,7 +136,7 @@
       "list": [
         "id",
         "heroImage",
-        "SEO"
+        "seo"
       ]
     }
   },

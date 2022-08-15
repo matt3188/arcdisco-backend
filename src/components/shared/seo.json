@@ -2,8 +2,7 @@
   "collectionName": "components_shared_seos",
   "info": {
     "displayName": "seo",
-    "icon": "search",
-    "description": ""
+    "icon": "search"
   },
   "options": {},
   "attributes": {
@@ -13,10 +12,20 @@
       "maxLength": 60
     },
     "metaDescription": {
-      "type": "text",
+      "type": "string",
       "required": true,
       "maxLength": 160,
       "minLength": 50
+    },
+    "metaImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
     },
     "metaSocial": {
       "type": "component",
@@ -26,6 +35,19 @@
     "keywords": {
       "type": "text",
       "regex": "[^,]+"
+    },
+    "metaRobots": {
+      "type": "string",
+      "regex": "[^,]+"
+    },
+    "structuredData": {
+      "type": "json"
+    },
+    "metaViewport": {
+      "type": "string"
+    },
+    "canonicalURL": {
+      "type": "string"
     }
   }
 }

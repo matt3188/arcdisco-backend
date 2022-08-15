@@ -660,7 +660,7 @@
         "description": {
           "type": "richtext"
         },
-        "SEO": {
+        "seo": {
           "type": "component",
           "repeatable": false,
           "component": "shared.seo"
@@ -728,7 +728,7 @@
           "description": {
             "type": "richtext"
           },
-          "SEO": {
+          "seo": {
             "type": "component",
             "repeatable": false,
             "component": "shared.seo"

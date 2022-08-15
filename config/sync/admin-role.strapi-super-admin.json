@@ -11,13 +11,18 @@
           "heroImage",
           "mainHeading",
           "description",
-          "SEO.metaTitle",
-          "SEO.metaDescription",
-          "SEO.metaSocial.socialNetwork",
-          "SEO.metaSocial.title",
-          "SEO.metaSocial.description",
-          "SEO.metaSocial.image",
-          "SEO.keywords"
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL"
         ]
       },
       "conditions": []
@@ -42,13 +47,18 @@
           "heroImage",
           "mainHeading",
           "description",
-          "SEO.metaTitle",
-          "SEO.metaDescription",
-          "SEO.metaSocial.socialNetwork",
-          "SEO.metaSocial.title",
-          "SEO.metaSocial.description",
-          "SEO.metaSocial.image",
-          "SEO.keywords"
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL"
         ]
       },
       "conditions": []
@@ -61,13 +71,18 @@
           "heroImage",
           "mainHeading",
           "description",
-          "SEO.metaTitle",
-          "SEO.metaDescription",
-          "SEO.metaSocial.socialNetwork",
-          "SEO.metaSocial.title",
-          "SEO.metaSocial.description",
-          "SEO.metaSocial.image",
-          "SEO.keywords"
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL"
         ]
       },
       "conditions": []

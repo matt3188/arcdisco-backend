@@ -5,6 +5,9 @@ module.exports = ({ env }) => ({
       serverPublicHostname: env("SERVER_PUBLIC_HOSTNAME"),
     },
   },
+  seo: {
+    enabled: true,
+  },
   email: {
     config: {
       provider: "sendgrid",
