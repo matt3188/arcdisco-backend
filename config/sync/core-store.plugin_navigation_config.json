@@ -4,7 +4,8 @@
     "additionalFields": [],
     "contentTypes": [
       "api::home-page.home-page",
-      "api::about-us.about-us"
+      "api::about-us.about-us",
+      "api::testimonials-page.testimonials-page"
     ],
     "contentTypesNameFields": {
       "default": [
@@ -18,7 +19,8 @@
     "gql": {
       "navigationItemRelated": [
         "HomePage",
-        "AboutUs"
+        "AboutUs",
+        "TestimonialsPage"
       ]
     },
     "i18nEnabled": false,

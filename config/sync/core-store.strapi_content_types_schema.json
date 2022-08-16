@@ -2569,6 +2569,88 @@
       "globalId": "Testimonial",
       "actions": {},
       "lifecycles": {}
+    },
+    "api::testimonials-page.testimonials-page": {
+      "kind": "singleType",
+      "collectionName": "testimonials_pages",
+      "info": {
+        "singularName": "testimonials-page",
+        "pluralName": "testimonials-pages",
+        "displayName": "Testimonials Page",
+        "description": ""
+      },
+      "options": {
+        "draftAndPublish": true
+      },
+      "pluginOptions": {},
+      "attributes": {
+        "pageHeader": {
+          "type": "component",
+          "repeatable": false,
+          "component": "page.header"
+        },
+        "createdAt": {
+          "type": "datetime"
+        },
+        "updatedAt": {
+          "type": "datetime"
+        },
+        "publishedAt": {
+          "type": "datetime",
+          "configurable": false,
+          "writable": true,
+          "visible": false
+        },
+        "createdBy": {
+          "type": "relation",
+          "relation": "oneToOne",
+          "target": "admin::user",
+          "configurable": false,
+          "writable": false,
+          "visible": false,
+          "useJoinTable": false,
+          "private": true
+        },
+        "updatedBy": {
+          "type": "relation",
+          "relation": "oneToOne",
+          "target": "admin::user",
+          "configurable": false,
+          "writable": false,
+          "visible": false,
+          "useJoinTable": false,
+          "private": true
+        }
+      },
+      "__schema__": {
+        "collectionName": "testimonials_pages",
+        "info": {
+          "singularName": "testimonials-page",
+          "pluralName": "testimonials-pages",
+          "displayName": "Testimonials Page",
+          "description": ""
+        },
+        "options": {
+          "draftAndPublish": true
+        },
+        "pluginOptions": {},
+        "attributes": {
+          "pageHeader": {
+            "type": "component",
+            "repeatable": false,
+            "component": "page.header"
+          }
+        },
+        "kind": "singleType"
+      },
+      "modelType": "contentType",
+      "modelName": "testimonials-page",
+      "connection": "default",
+      "uid": "api::testimonials-page.testimonials-page",
+      "apiName": "testimonials-page",
+      "globalId": "TestimonialsPage",
+      "actions": {},
+      "lifecycles": {}
     }
   },
   "type": "object",

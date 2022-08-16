@@ -241,6 +241,51 @@
       "conditions": []
     },
     {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::testimonials-page.testimonials-page",
+      "properties": {
+        "fields": [
+          "pageHeader.heading",
+          "pageHeader.banner"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::testimonials-page.testimonials-page",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::testimonials-page.testimonials-page",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::testimonials-page.testimonials-page",
+      "properties": {
+        "fields": [
+          "pageHeader.heading",
+          "pageHeader.banner"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::testimonials-page.testimonials-page",
+      "properties": {
+        "fields": [
+          "pageHeader.heading",
+          "pageHeader.banner"
+        ]
+      },
+      "conditions": []
+    },
+    {
       "action": "admin::api-tokens.create",
       "subject": null,
       "properties": {},

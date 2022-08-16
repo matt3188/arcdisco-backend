@@ -22,6 +22,9 @@
       "action": "api::testimonial.testimonial.findOne"
     },
     {
+      "action": "api::testimonials-page.testimonials-page.find"
+    },
+    {
       "action": "plugin::navigation.client.render"
     },
     {
