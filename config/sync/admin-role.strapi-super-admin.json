@@ -8,7 +8,9 @@
       "subject": "api::about-us.about-us",
       "properties": {
         "fields": [
-          "content"
+          "content",
+          "heading",
+          "banner"
         ]
       },
       "conditions": []
@@ -30,7 +32,9 @@
       "subject": "api::about-us.about-us",
       "properties": {
         "fields": [
-          "content"
+          "content",
+          "heading",
+          "banner"
         ]
       },
       "conditions": []
@@ -40,7 +44,9 @@
       "subject": "api::about-us.about-us",
       "properties": {
         "fields": [
-          "content"
+          "content",
+          "heading",
+          "banner"
         ]
       },
       "conditions": []

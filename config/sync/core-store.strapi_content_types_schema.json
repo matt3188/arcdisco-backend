@@ -2132,7 +2132,8 @@
       "info": {
         "singularName": "about-us",
         "pluralName": "about-uses",
-        "displayName": "About us"
+        "displayName": "About us",
+        "description": ""
       },
       "options": {
         "draftAndPublish": true
@@ -2141,6 +2142,19 @@
       "attributes": {
         "content": {
           "type": "richtext"
+        },
+        "heading": {
+          "type": "string"
+        },
+        "banner": {
+          "allowedTypes": [
+            "images",
+            "files",
+            "videos",
+            "audios"
+          ],
+          "type": "media",
+          "multiple": false
         },
         "createdAt": {
           "type": "datetime"
@@ -2180,7 +2194,8 @@
         "info": {
           "singularName": "about-us",
           "pluralName": "about-uses",
-          "displayName": "About us"
+          "displayName": "About us",
+          "description": ""
         },
         "options": {
           "draftAndPublish": true
@@ -2189,6 +2204,19 @@
         "attributes": {
           "content": {
             "type": "richtext"
+          },
+          "heading": {
+            "type": "string"
+          },
+          "banner": {
+            "allowedTypes": [
+              "images",
+              "files",
+              "videos",
+              "audios"
+            ],
+            "type": "media",
+            "multiple": false
           }
         },
         "kind": "singleType"

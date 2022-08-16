@@ -22,7 +22,7 @@
       },
       "content": {
         "edit": {
-          "label": "content",
+          "label": "Content",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -30,6 +30,34 @@
         },
         "list": {
           "label": "content",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "heading": {
+        "edit": {
+          "label": "Heading",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "heading",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "banner": {
+        "edit": {
+          "label": "Banner Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "banner",
           "searchable": false,
           "sortable": false
         }
@@ -64,19 +92,32 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "createdAt",
-        "updatedAt"
-      ],
-      "editRelations": [],
       "edit": [
+        [
+          {
+            "name": "heading",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "banner",
+            "size": 12
+          }
+        ],
         [
           {
             "name": "content",
             "size": 12
           }
         ]
+      ],
+      "editRelations": [],
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "heading"
       ]
     }
   },
