@@ -80,10 +80,11 @@
     "layouts": {
       "list": [
         "id",
-        "createdAt",
-        "updatedAt",
-        "pageHeader"
+        "pageHeader",
+        "intro",
+        "createdAt"
       ],
+      "editRelations": [],
       "edit": [
         [
           {
@@ -97,8 +98,7 @@
             "size": 12
           }
         ]
-      ],
-      "editRelations": []
+      ]
     }
   },
   "type": "object",
