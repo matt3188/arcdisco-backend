@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_quote_banners",
+  "info": {
+    "displayName": "Quote banner",
+    "icon": "quote-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "banner_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "citation": {
+      "type": "string"
+    }
+  }
+}

@@ -1,14 +1,14 @@
 {
-  "key": "plugin_content_manager_configuration_content_types::api::testimonials-page.testimonials-page",
+  "key": "plugin_content_manager_configuration_components::page.quote-banner",
   "value": {
-    "uid": "api::testimonials-page.testimonials-page",
+    "uid": "page.quote-banner",
     "settings": {
       "bulkable": true,
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "id",
-      "defaultSortBy": "id",
+      "mainField": "heading",
+      "defaultSortBy": "heading",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -16,62 +16,62 @@
         "edit": {},
         "list": {
           "label": "id",
-          "searchable": true,
-          "sortable": true
+          "searchable": false,
+          "sortable": false
         }
       },
-      "pageHeader": {
+      "heading": {
         "edit": {
-          "label": "pageHeader",
+          "label": "Heading",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "pageHeader",
-          "searchable": false,
-          "sortable": false
+          "label": "heading",
+          "searchable": true,
+          "sortable": true
         }
       },
-      "intro": {
+      "content": {
         "edit": {
-          "label": "intro",
+          "label": "Content",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "intro",
+          "label": "content",
           "searchable": false,
           "sortable": false
         }
       },
-      "createdAt": {
+      "banner_image": {
         "edit": {
-          "label": "createdAt",
+          "label": "Banner Image",
           "description": "",
           "placeholder": "",
-          "visible": false,
+          "visible": true,
           "editable": true
         },
         "list": {
-          "label": "createdAt",
-          "searchable": true,
-          "sortable": true
+          "label": "banner_image",
+          "searchable": false,
+          "sortable": false
         }
       },
-      "updatedAt": {
+      "citation": {
         "edit": {
-          "label": "updatedAt",
+          "label": "Citation",
           "description": "",
           "placeholder": "",
-          "visible": false,
+          "visible": true,
           "editable": true
         },
         "list": {
-          "label": "updatedAt",
+          "label": "citation",
           "searchable": true,
           "sortable": true
         }
@@ -80,26 +80,39 @@
     "layouts": {
       "list": [
         "id",
-        "createdAt",
-        "updatedAt",
-        "pageHeader"
+        "banner_image",
+        "citation",
+        "heading"
       ],
       "edit": [
         [
           {
-            "name": "pageHeader",
+            "name": "heading",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "content",
             "size": 12
           }
         ],
         [
           {
-            "name": "intro",
+            "name": "banner_image",
             "size": 12
+          }
+        ],
+        [
+          {
+            "name": "citation",
+            "size": 6
           }
         ]
       ],
       "editRelations": []
-    }
+    },
+    "isComponent": true
   },
   "type": "object",
   "environment": null,

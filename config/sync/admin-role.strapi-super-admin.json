@@ -10,7 +10,11 @@
         "fields": [
           "content",
           "heading",
-          "banner"
+          "banner",
+          "intro.heading",
+          "intro.content",
+          "intro.banner_image",
+          "intro.citation"
         ]
       },
       "conditions": []
@@ -34,7 +38,11 @@
         "fields": [
           "content",
           "heading",
-          "banner"
+          "banner",
+          "intro.heading",
+          "intro.content",
+          "intro.banner_image",
+          "intro.citation"
         ]
       },
       "conditions": []
@@ -46,7 +54,11 @@
         "fields": [
           "content",
           "heading",
-          "banner"
+          "banner",
+          "intro.heading",
+          "intro.content",
+          "intro.banner_image",
+          "intro.citation"
         ]
       },
       "conditions": []
@@ -246,7 +258,11 @@
       "properties": {
         "fields": [
           "pageHeader.heading",
-          "pageHeader.banner"
+          "pageHeader.banner",
+          "intro.heading",
+          "intro.content",
+          "intro.banner_image",
+          "intro.citation"
         ]
       },
       "conditions": []
@@ -269,7 +285,11 @@
       "properties": {
         "fields": [
           "pageHeader.heading",
-          "pageHeader.banner"
+          "pageHeader.banner",
+          "intro.heading",
+          "intro.content",
+          "intro.banner_image",
+          "intro.citation"
         ]
       },
       "conditions": []
@@ -280,7 +300,11 @@
       "properties": {
         "fields": [
           "pageHeader.heading",
-          "pageHeader.banner"
+          "pageHeader.banner",
+          "intro.heading",
+          "intro.content",
+          "intro.banner_image",
+          "intro.citation"
         ]
       },
       "conditions": []

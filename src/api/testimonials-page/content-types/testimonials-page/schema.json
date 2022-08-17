@@ -16,6 +16,11 @@
       "type": "component",
       "repeatable": false,
       "component": "page.header"
+    },
+    "intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.quote-banner"
     }
   }
 }
