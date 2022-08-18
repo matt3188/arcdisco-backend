@@ -5,7 +5,8 @@
     "contentTypes": [
       "api::home-page.home-page",
       "api::about-us.about-us",
-      "api::testimonials-page.testimonials-page"
+      "api::testimonials-page.testimonials-page",
+      "api::terms-and-condition.terms-and-condition"
     ],
     "contentTypesNameFields": {
       "default": [
@@ -20,7 +21,8 @@
       "navigationItemRelated": [
         "HomePage",
         "AboutUs",
-        "TestimonialsPage"
+        "TestimonialsPage",
+        "TermsAndCondition"
       ]
     },
     "i18nEnabled": false,

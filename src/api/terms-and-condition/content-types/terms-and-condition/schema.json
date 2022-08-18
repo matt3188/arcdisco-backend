@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "testimonials_pages",
+  "collectionName": "terms_and_conditions",
   "info": {
-    "singularName": "testimonials-page",
-    "pluralName": "testimonials-pages",
-    "displayName": "Testimonials Page",
+    "singularName": "terms-and-condition",
+    "pluralName": "terms-and-conditions",
+    "displayName": "Terms & Conditions",
     "description": ""
   },
   "options": {
@@ -17,10 +17,10 @@
       "repeatable": false,
       "component": "page.header"
     },
-    "intro": {
+    "content": {
       "type": "component",
       "repeatable": false,
-      "component": "page.quote-banner"
+      "component": "page.content"
     }
   }
 }

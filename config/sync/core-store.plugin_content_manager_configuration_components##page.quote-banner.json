@@ -75,6 +75,34 @@
           "searchable": true,
           "sortable": true
         }
+      },
+      "button_text": {
+        "edit": {
+          "label": "button_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "button_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "button_link": {
+        "edit": {
+          "label": "button_link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "button_link",
+          "searchable": true,
+          "sortable": true
+        }
       }
     },
     "layouts": {
@@ -106,6 +134,16 @@
         [
           {
             "name": "citation",
+            "size": 6
+          },
+          {
+            "name": "button_text",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "button_link",
             "size": 6
           }
         ]

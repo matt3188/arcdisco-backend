@@ -9,12 +9,14 @@
       "properties": {
         "fields": [
           "content",
-          "heading",
-          "banner",
           "intro.heading",
           "intro.content",
           "intro.banner_image",
-          "intro.citation"
+          "intro.citation",
+          "intro.button_text",
+          "intro.button_link",
+          "header.heading",
+          "header.banner"
         ]
       },
       "conditions": []
@@ -37,12 +39,14 @@
       "properties": {
         "fields": [
           "content",
-          "heading",
-          "banner",
           "intro.heading",
           "intro.content",
           "intro.banner_image",
-          "intro.citation"
+          "intro.citation",
+          "intro.button_text",
+          "intro.button_link",
+          "header.heading",
+          "header.banner"
         ]
       },
       "conditions": []
@@ -53,12 +57,14 @@
       "properties": {
         "fields": [
           "content",
-          "heading",
-          "banner",
           "intro.heading",
           "intro.content",
           "intro.banner_image",
-          "intro.citation"
+          "intro.citation",
+          "intro.button_text",
+          "intro.button_link",
+          "header.heading",
+          "header.banner"
         ]
       },
       "conditions": []
@@ -133,7 +139,13 @@
           "seo.metaRobots",
           "seo.structuredData",
           "seo.metaViewport",
-          "seo.canonicalURL"
+          "seo.canonicalURL",
+          "banner.heading",
+          "banner.content",
+          "banner.banner_image",
+          "banner.citation",
+          "banner.button_text",
+          "banner.button_link"
         ]
       },
       "conditions": []
@@ -169,7 +181,13 @@
           "seo.metaRobots",
           "seo.structuredData",
           "seo.metaViewport",
-          "seo.canonicalURL"
+          "seo.canonicalURL",
+          "banner.heading",
+          "banner.content",
+          "banner.banner_image",
+          "banner.citation",
+          "banner.button_text",
+          "banner.button_link"
         ]
       },
       "conditions": []
@@ -193,7 +211,61 @@
           "seo.metaRobots",
           "seo.structuredData",
           "seo.metaViewport",
-          "seo.canonicalURL"
+          "seo.canonicalURL",
+          "banner.heading",
+          "banner.content",
+          "banner.banner_image",
+          "banner.citation",
+          "banner.button_text",
+          "banner.button_link"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::terms-and-condition.terms-and-condition",
+      "properties": {
+        "fields": [
+          "header.heading",
+          "header.banner",
+          "content.content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::terms-and-condition.terms-and-condition",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::terms-and-condition.terms-and-condition",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::terms-and-condition.terms-and-condition",
+      "properties": {
+        "fields": [
+          "header.heading",
+          "header.banner",
+          "content.content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::terms-and-condition.terms-and-condition",
+      "properties": {
+        "fields": [
+          "header.heading",
+          "header.banner",
+          "content.content"
         ]
       },
       "conditions": []
@@ -257,12 +329,14 @@
       "subject": "api::testimonials-page.testimonials-page",
       "properties": {
         "fields": [
-          "pageHeader.heading",
-          "pageHeader.banner",
+          "header.heading",
+          "header.banner",
           "intro.heading",
           "intro.content",
           "intro.banner_image",
-          "intro.citation"
+          "intro.citation",
+          "intro.button_text",
+          "intro.button_link"
         ]
       },
       "conditions": []
@@ -284,12 +358,14 @@
       "subject": "api::testimonials-page.testimonials-page",
       "properties": {
         "fields": [
-          "pageHeader.heading",
-          "pageHeader.banner",
+          "header.heading",
+          "header.banner",
           "intro.heading",
           "intro.content",
           "intro.banner_image",
-          "intro.citation"
+          "intro.citation",
+          "intro.button_text",
+          "intro.button_link"
         ]
       },
       "conditions": []
@@ -299,12 +375,14 @@
       "subject": "api::testimonials-page.testimonials-page",
       "properties": {
         "fields": [
-          "pageHeader.heading",
-          "pageHeader.banner",
+          "header.heading",
+          "header.banner",
           "intro.heading",
           "intro.content",
           "intro.banner_image",
-          "intro.citation"
+          "intro.citation",
+          "intro.button_text",
+          "intro.button_link"
         ]
       },
       "conditions": []

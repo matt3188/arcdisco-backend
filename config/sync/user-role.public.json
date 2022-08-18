@@ -16,6 +16,9 @@
       "action": "api::home-page.home-page.find"
     },
     {
+      "action": "api::terms-and-condition.terms-and-condition.find"
+    },
+    {
       "action": "api::testimonial.testimonial.find"
     },
     {

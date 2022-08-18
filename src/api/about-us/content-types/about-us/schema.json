@@ -15,24 +15,15 @@
     "content": {
       "type": "richtext"
     },
-    "heading": {
-      "type": "string"
-    },
-    "banner": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "intro": {
       "type": "component",
       "repeatable": false,
       "component": "page.quote-banner"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
     }
   }
 }

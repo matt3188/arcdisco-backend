@@ -76,6 +76,20 @@
           "sortable": false
         }
       },
+      "banner": {
+        "edit": {
+          "label": "banner",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "banner",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -106,6 +120,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "heroImage",
+        "seo",
+        "banner"
+      ],
       "edit": [
         [
           {
@@ -130,14 +150,15 @@
             "name": "seo",
             "size": 12
           }
+        ],
+        [
+          {
+            "name": "banner",
+            "size": 12
+          }
         ]
       ],
-      "editRelations": [],
-      "list": [
-        "id",
-        "heroImage",
-        "seo"
-      ]
+      "editRelations": []
     }
   },
   "type": "object",
