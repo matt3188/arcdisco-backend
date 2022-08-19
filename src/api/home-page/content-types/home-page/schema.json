@@ -12,23 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "heroImage": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "mainHeading": {
-      "type": "string"
-    },
-    "description": {
-      "type": "richtext"
-    },
     "seo": {
       "type": "component",
       "repeatable": false,
@@ -38,6 +21,21 @@
       "type": "component",
       "repeatable": false,
       "component": "page.quote-banner"
+    },
+    "carousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.carousel"
+    },
+    "carousel_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.carousel-settings"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.content"
     }
   }
 }

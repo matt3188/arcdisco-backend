@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_carousel_settings",
+  "info": {
+    "displayName": "Carousel settings",
+    "icon": "sliders-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "autoplaySpeed": {
+      "type": "integer",
+      "default": 3000
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": true
+    },
+    "dots": {
+      "type": "boolean",
+      "default": false
+    },
+    "arrows": {
+      "type": "boolean",
+      "default": false
+    },
+    "slidesToShow": {
+      "type": "integer",
+      "default": 1
+    }
+  }
+}
