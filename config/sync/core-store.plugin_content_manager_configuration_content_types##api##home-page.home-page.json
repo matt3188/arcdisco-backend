@@ -7,8 +7,8 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "mainHeading",
-      "defaultSortBy": "mainHeading",
+      "mainField": "id",
+      "defaultSortBy": "id",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -18,48 +18,6 @@
           "label": "id",
           "searchable": true,
           "sortable": true
-        }
-      },
-      "heroImage": {
-        "edit": {
-          "label": "Hero Image",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "heroImage",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "mainHeading": {
-        "edit": {
-          "label": "Main Heading",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "mainHeading",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "description": {
-        "edit": {
-          "label": "Description",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "description",
-          "searchable": false,
-          "sortable": false
         }
       },
       "seo": {
@@ -86,6 +44,48 @@
         },
         "list": {
           "label": "banner",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "carousel": {
+        "edit": {
+          "label": "Carousel",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "carousel",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "carousel_settings": {
+        "edit": {
+          "label": "Carousel Settings",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "carousel_settings",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "content": {
+        "edit": {
+          "label": "Content",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "content",
           "searchable": false,
           "sortable": false
         }
@@ -120,34 +120,22 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "heroImage",
-        "seo",
-        "banner"
-      ],
       "edit": [
         [
           {
-            "name": "heroImage",
+            "name": "carousel",
             "size": 12
           }
         ],
         [
           {
-            "name": "mainHeading",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "description",
+            "name": "carousel_settings",
             "size": 12
           }
         ],
         [
           {
-            "name": "seo",
+            "name": "content",
             "size": 12
           }
         ],
@@ -156,9 +144,21 @@
             "name": "banner",
             "size": 12
           }
+        ],
+        [
+          {
+            "name": "seo",
+            "size": 12
+          }
         ]
       ],
-      "editRelations": []
+      "editRelations": [],
+      "list": [
+        "id",
+        "seo",
+        "banner",
+        "content"
+      ]
     }
   },
   "type": "object",

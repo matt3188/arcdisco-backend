@@ -125,9 +125,6 @@
       "subject": "api::home-page.home-page",
       "properties": {
         "fields": [
-          "heroImage",
-          "mainHeading",
-          "description",
           "seo.metaTitle",
           "seo.metaDescription",
           "seo.metaImage",
@@ -145,7 +142,16 @@
           "banner.banner_image",
           "banner.citation",
           "banner.button_text",
-          "banner.button_link"
+          "banner.button_link",
+          "carousel.heading",
+          "carousel.sub_heading",
+          "carousel.image",
+          "carousel_settings.autoplaySpeed",
+          "carousel_settings.autoplay",
+          "carousel_settings.dots",
+          "carousel_settings.arrows",
+          "carousel_settings.slidesToShow",
+          "content.content"
         ]
       },
       "conditions": []
@@ -167,9 +173,6 @@
       "subject": "api::home-page.home-page",
       "properties": {
         "fields": [
-          "heroImage",
-          "mainHeading",
-          "description",
           "seo.metaTitle",
           "seo.metaDescription",
           "seo.metaImage",
@@ -187,7 +190,16 @@
           "banner.banner_image",
           "banner.citation",
           "banner.button_text",
-          "banner.button_link"
+          "banner.button_link",
+          "carousel.heading",
+          "carousel.sub_heading",
+          "carousel.image",
+          "carousel_settings.autoplaySpeed",
+          "carousel_settings.autoplay",
+          "carousel_settings.dots",
+          "carousel_settings.arrows",
+          "carousel_settings.slidesToShow",
+          "content.content"
         ]
       },
       "conditions": []
@@ -197,9 +209,6 @@
       "subject": "api::home-page.home-page",
       "properties": {
         "fields": [
-          "heroImage",
-          "mainHeading",
-          "description",
           "seo.metaTitle",
           "seo.metaDescription",
           "seo.metaImage",
@@ -217,7 +226,16 @@
           "banner.banner_image",
           "banner.citation",
           "banner.button_text",
-          "banner.button_link"
+          "banner.button_link",
+          "carousel.heading",
+          "carousel.sub_heading",
+          "carousel.image",
+          "carousel_settings.autoplaySpeed",
+          "carousel_settings.autoplay",
+          "carousel_settings.dots",
+          "carousel_settings.arrows",
+          "carousel_settings.slidesToShow",
+          "content.content"
         ]
       },
       "conditions": []

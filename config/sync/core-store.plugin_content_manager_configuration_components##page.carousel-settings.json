@@ -1,0 +1,134 @@
+{
+  "key": "plugin_content_manager_configuration_components::page.carousel-settings",
+  "value": {
+    "uid": "page.carousel-settings",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "autoplaySpeed": {
+        "edit": {
+          "label": "Carousel speed",
+          "description": "in milliseconds",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "autoplaySpeed",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "autoplay": {
+        "edit": {
+          "label": "Auto play",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "autoplay",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "dots": {
+        "edit": {
+          "label": "Display dots",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "dots",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "arrows": {
+        "edit": {
+          "label": "Display navigation arrows",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "arrows",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "slidesToShow": {
+        "edit": {
+          "label": "Slides to display",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slidesToShow",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "autoplaySpeed",
+        "autoplay",
+        "dots"
+      ],
+      "edit": [
+        [
+          {
+            "name": "autoplaySpeed",
+            "size": 4
+          },
+          {
+            "name": "autoplay",
+            "size": 4
+          },
+          {
+            "name": "slidesToShow",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "dots",
+            "size": 4
+          },
+          {
+            "name": "arrows",
+            "size": 4
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
