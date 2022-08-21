@@ -4,7 +4,8 @@
   "info": {
     "singularName": "our-service",
     "pluralName": "our-services",
-    "displayName": "Our Services"
+    "displayName": "Our Services",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,6 +21,11 @@
       "type": "component",
       "repeatable": false,
       "component": "page.quote-banner"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.services"
     }
   }
 }
