@@ -48,6 +48,20 @@
           "sortable": false
         }
       },
+      "services": {
+        "edit": {
+          "label": "services",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "services",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -78,6 +92,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "header",
+        "banner",
+        "createdAt"
+      ],
       "edit": [
         [
           {
@@ -90,15 +110,15 @@
             "name": "banner",
             "size": 12
           }
+        ],
+        [
+          {
+            "name": "services",
+            "size": 12
+          }
         ]
       ],
-      "editRelations": [],
-      "list": [
-        "id",
-        "header",
-        "banner",
-        "createdAt"
-      ]
+      "editRelations": []
     }
   },
   "type": "object",

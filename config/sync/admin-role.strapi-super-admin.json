@@ -252,7 +252,12 @@
           "banner.banner_image",
           "banner.citation",
           "banner.button_text",
-          "banner.button_link"
+          "banner.button_link",
+          "services.name",
+          "services.description",
+          "services.button_text",
+          "services.button_link",
+          "services.image"
         ]
       },
       "conditions": []
@@ -281,7 +286,12 @@
           "banner.banner_image",
           "banner.citation",
           "banner.button_text",
-          "banner.button_link"
+          "banner.button_link",
+          "services.name",
+          "services.description",
+          "services.button_text",
+          "services.button_link",
+          "services.image"
         ]
       },
       "conditions": []
@@ -298,7 +308,12 @@
           "banner.banner_image",
           "banner.citation",
           "banner.button_text",
-          "banner.button_link"
+          "banner.button_link",
+          "services.name",
+          "services.description",
+          "services.button_text",
+          "services.button_link",
+          "services.image"
         ]
       },
       "conditions": []
