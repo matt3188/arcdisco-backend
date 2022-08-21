@@ -6,7 +6,8 @@
       "api::home-page.home-page",
       "api::about-us.about-us",
       "api::testimonials-page.testimonials-page",
-      "api::terms-and-condition.terms-and-condition"
+      "api::terms-and-condition.terms-and-condition",
+      "api::our-service.our-service"
     ],
     "contentTypesNameFields": {
       "default": [
@@ -22,7 +23,8 @@
         "HomePage",
         "AboutUs",
         "TestimonialsPage",
-        "TermsAndCondition"
+        "TermsAndCondition",
+        "OurService"
       ]
     },
     "i18nEnabled": false,
