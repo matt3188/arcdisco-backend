@@ -122,6 +122,78 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
+      "subject": "api::gallery.gallery",
+      "properties": {
+        "fields": [
+          "galleries.images",
+          "galleries.name",
+          "galleries.cover",
+          "header.heading",
+          "header.banner",
+          "banner.heading",
+          "banner.content",
+          "banner.banner_image",
+          "banner.citation",
+          "banner.button_text",
+          "banner.button_link"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::gallery.gallery",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::gallery.gallery",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::gallery.gallery",
+      "properties": {
+        "fields": [
+          "galleries.images",
+          "galleries.name",
+          "galleries.cover",
+          "header.heading",
+          "header.banner",
+          "banner.heading",
+          "banner.content",
+          "banner.banner_image",
+          "banner.citation",
+          "banner.button_text",
+          "banner.button_link"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::gallery.gallery",
+      "properties": {
+        "fields": [
+          "galleries.images",
+          "galleries.name",
+          "galleries.cover",
+          "header.heading",
+          "header.banner",
+          "banner.heading",
+          "banner.content",
+          "banner.banner_image",
+          "banner.citation",
+          "banner.button_text",
+          "banner.button_link"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
       "subject": "api::home-page.home-page",
       "properties": {
         "fields": [

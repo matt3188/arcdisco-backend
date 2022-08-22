@@ -1,0 +1,127 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::gallery.gallery",
+  "value": {
+    "uid": "api::gallery.gallery",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "galleries": {
+        "edit": {
+          "label": "Galleries",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "galleries",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "header": {
+        "edit": {
+          "label": "Header",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "header",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "banner": {
+        "edit": {
+          "label": "Banner",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "banner",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "header",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "banner",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "galleries",
+            "size": 12
+          }
+        ]
+      ],
+      "editRelations": [],
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "galleries"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

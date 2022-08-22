@@ -7,7 +7,8 @@
       "api::about-us.about-us",
       "api::testimonials-page.testimonials-page",
       "api::terms-and-condition.terms-and-condition",
-      "api::our-service.our-service"
+      "api::our-service.our-service",
+      "api::gallery.gallery"
     ],
     "contentTypesNameFields": {
       "default": [
@@ -24,7 +25,8 @@
         "AboutUs",
         "TestimonialsPage",
         "TermsAndCondition",
-        "OurService"
+        "OurService",
+        "Gallery"
       ]
     },
     "i18nEnabled": false,

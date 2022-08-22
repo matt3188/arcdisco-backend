@@ -13,6 +13,9 @@
       "action": "api::footer.footer.findOne"
     },
     {
+      "action": "api::gallery.gallery.find"
+    },
+    {
       "action": "api::home-page.home-page.find"
     },
     {

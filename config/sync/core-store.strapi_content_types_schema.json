@@ -2336,6 +2336,108 @@
       "actions": {},
       "lifecycles": {}
     },
+    "api::gallery.gallery": {
+      "kind": "singleType",
+      "collectionName": "galleries",
+      "info": {
+        "singularName": "gallery",
+        "pluralName": "galleries",
+        "displayName": "Gallery Page",
+        "description": ""
+      },
+      "options": {
+        "draftAndPublish": true
+      },
+      "pluginOptions": {},
+      "attributes": {
+        "galleries": {
+          "type": "component",
+          "repeatable": true,
+          "component": "page.album"
+        },
+        "header": {
+          "type": "component",
+          "repeatable": false,
+          "component": "page.header"
+        },
+        "banner": {
+          "type": "component",
+          "repeatable": false,
+          "component": "page.quote-banner"
+        },
+        "createdAt": {
+          "type": "datetime"
+        },
+        "updatedAt": {
+          "type": "datetime"
+        },
+        "publishedAt": {
+          "type": "datetime",
+          "configurable": false,
+          "writable": true,
+          "visible": false
+        },
+        "createdBy": {
+          "type": "relation",
+          "relation": "oneToOne",
+          "target": "admin::user",
+          "configurable": false,
+          "writable": false,
+          "visible": false,
+          "useJoinTable": false,
+          "private": true
+        },
+        "updatedBy": {
+          "type": "relation",
+          "relation": "oneToOne",
+          "target": "admin::user",
+          "configurable": false,
+          "writable": false,
+          "visible": false,
+          "useJoinTable": false,
+          "private": true
+        }
+      },
+      "__schema__": {
+        "collectionName": "galleries",
+        "info": {
+          "singularName": "gallery",
+          "pluralName": "galleries",
+          "displayName": "Gallery Page",
+          "description": ""
+        },
+        "options": {
+          "draftAndPublish": true
+        },
+        "pluginOptions": {},
+        "attributes": {
+          "galleries": {
+            "type": "component",
+            "repeatable": true,
+            "component": "page.album"
+          },
+          "header": {
+            "type": "component",
+            "repeatable": false,
+            "component": "page.header"
+          },
+          "banner": {
+            "type": "component",
+            "repeatable": false,
+            "component": "page.quote-banner"
+          }
+        },
+        "kind": "singleType"
+      },
+      "modelType": "contentType",
+      "modelName": "gallery",
+      "connection": "default",
+      "uid": "api::gallery.gallery",
+      "apiName": "gallery",
+      "globalId": "Gallery",
+      "actions": {},
+      "lifecycles": {}
+    },
     "api::home-page.home-page": {
       "kind": "singleType",
       "collectionName": "home_pages",
